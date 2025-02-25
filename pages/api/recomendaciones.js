@@ -16,7 +16,7 @@ export default async function handler(req, res) {
         messages: [
           {
             role: 'assistant',
-            content:`Recomienda productos basados en estas preferencias: ${preferencias}.`,
+            content:`Contesta y Recomienda en base a estas preferencias: ${preferencias}.`,
           },
           {
             role: 'user',
